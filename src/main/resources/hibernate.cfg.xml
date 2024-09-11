@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-configuration PUBLIC
+        "-//Hibernate/Hibernate Configuration DTD 3.0//EN"
+        "http://www.hibernate.org/dtd/hibernate-configuration-3.0.dtd">
+<hibernate-configuration>
+    <session-factory>
+        <property name="hbm2ddl.auto">update</property>
+        <property name="connection.driver_class">com.mysql.cj.jdbc.Driver</property>
+        <property name="hibernate.connection.username">r92367mult_storeSDA</property>
+        <property name="hibernate.connection.password">ph!o80k^r1q^</property>
+        <property name="connection.url">jdbc:mysql://89.42.218.195:3306/r92367mult_storeSDA</property>
+        <property name="hibernate.dialect">org.hibernate.dialect.MariaDBDialect</property>
+        <mapping class="org.example.model.Product"></mapping>
+        <mapping class="org.example.model.User"></mapping>
+        <mapping class="org.example.model.Cart"></mapping>
+        <mapping class="org.example.model.CartItem"></mapping>
+
+    </session-factory>
+</hibernate-configuration>
+
+
+
